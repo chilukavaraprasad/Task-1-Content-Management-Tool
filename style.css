@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin-bottom: 25px;
+}
+
+.label-section {
+    text-decoration: underline;
+    font-size: 16px;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 5px;
+}
+
+.div-section {
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.preview {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.video-preview {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button color */
+    border: none;
+    color: #fff; /* White button text color */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.data-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    background-image: url("blog.jpg");
+    /* Replace with the path to yourimage */
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+}
+
+.card-header {
+    background-color: #007bff; /* Blue header background color */
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff; /* White header text color */
+}
+
+.card-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-body {
+    margin-top: 10px;
+}
